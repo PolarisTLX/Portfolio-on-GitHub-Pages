@@ -46,15 +46,16 @@
   <div class="pageTwo" id="page2">
     <!--we give id's, like "page2" here to use in the buttons above to jump to these sections respectively-->
     <div class="aboutMe text-center">
-     <h1>About Me</h1>
-      <h3>I'm a self taught full-stack developer based in Toronto, Canada with previous industry experience in engineering and finance. I am passionate about being at the forefront of where the world is heading, particularly with programming and digital marketing, and using technology to solve real world problems.</h3>
+     <h1 class="smallBlock">About Me</h1>
+      <h3>I'm a self taught full-stack developer based in Toronto, Canada with previous industry experience in engineering and finance.</h3>
+      <h3>I am passionate about being at the forefront of where the world is heading, particularly with programming and digital marketing, and using technology to solve real world problems.</h3>
     </div>
 
     <br/>
 
       <!-- My Skills section start -->
           <div class="section text-center">
-              <h2 class="codingSkills text-center">Coding Skills</h2> <br/>
+              <h2 class="smallBlock codingSkills text-center">Coding Skills</h2> <br/>
 
                <p class="skillList">
                   HTML5 <br />
@@ -80,7 +81,7 @@
 
   <div class ="pageThree text-center" id="page3">
     <div class="paddingTop">
-      <h1>Portfolio</h1>
+      <h1 class="smallBlock">Portfolio</h1>
       <h2>Examples of my latest work</h2>
     </div>
 
@@ -125,8 +126,8 @@
 
 
   <div class="pageFour text-center" id="page4">
-    <h2>Contact Me: <a href="mailto:paul.a.rail@gmail.com">Click here for E-mail</a></h2>
-    <br/>
+<h2 class="smallBlock">Contact Me  <!-- <a href="mailto:paul.a.rail@gmail.com">Click here for E-mail</a>--></h2>
+    <br/><br/><br/>
 
         <a class="btn btn-default paddingBTN" href="https://github.com/PolarisTLX" target="blank"><i class="fa fa-github" id="githubIcon"></i> Github</a>
         <a class="btn btn-default paddingBTN" href="https://codepen.io/PolarisTLX/" target="blank"><i class="fa fa-codepen" id="codepenIcon"></i> CodePen</a>
@@ -210,6 +211,16 @@ h1 {
 .aboutMe {
   margin: 0 15% 0 15%;
 }
+.smallBlock{
+  background-color: rgba(0, 0, 0, 0.6);
+  /* use rgba instead to apply opacity
+  opacity: .75;  */
+  padding: 10px 10px 10px 10px;
+  /*margin-top: 200px;*/
+  /*margin-bottom: 10px;*/
+  border-radius: 10px;
+  display:inline-block;
+ }
 .section {
     padding: 15px;
 }
