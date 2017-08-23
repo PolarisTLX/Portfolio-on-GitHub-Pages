@@ -46,8 +46,11 @@
   <!-- link that has been styled to look like buttons-->
     </div>
     <br/>
-    <h4 class="smallBlock aboutMe text-center follow-text">Observe my dedication to learning by following my progress <br/> with #100DaysOfCode on Twitter or my activity on GitHub!</h4>
+    <div class="follow">
+      <h4 class="smallBlock aboutMe text-center follow-text">Observe my dedication to learning by following my progress <br/> with #100DaysOfCode on Twitter or my activity on GitHub!</h4>
+    </div>
   </div>
+
   <div class="pageTwo" id="page2">
     <!--we give id's, like "page2" here to use in the buttons above to jump to these sections respectively-->
     <div class="aboutMe text-center">
@@ -90,7 +93,8 @@
       <h2>Examples of my latest work</h2>
     </div>
 
-    <div class="container"><div class="row">
+    <div class="container">
+      <div class="row">
       <div class="col-md-6">
       <p data-height="300" data-theme-id="0" data-slug-hash="aWayNP" data-default-tab="result" data-user="PolarisTLX" data-embed-version="2" data-pen-title="Free Code Course Practice Project 1" class="codepen">See the Pen <a href="https://codepen.io/PolarisTLX/full/aWayNP/">Free Code Course Practice Project 1</a> by Paul (<a href="https://codepen.io/PolarisTLX">@PolarisTLX</a>) on <a href="https://codepen.io">CodePen</a>.</p>
   <script async src="https://codepen.io/PolarisTLX/full/aWayNP/"></script>
@@ -141,7 +145,7 @@
         <a class="btn btn-default paddingBTN" href="https://twitter.com/PolarisTLX" target="blank"><i class="fa fa-twitter" id="codepenIcon"></i> Twitter</a>
         <a class="btn btn-default paddingBTN" href="https://www.linkedin.com/in/paul-rail-33345518/" target="blank"><i class="fa fa-linkedin" id="linkedinIcon"></i> LinkedIn</a>
       </div>
-  </div>
+
 
     <div class="footer text-center">
 
@@ -202,12 +206,16 @@ h1 {
 .pageOne{
   background: url("https://i.ytimg.com/vi/hxKVLOYCs5o/maxresdefault.jpg");
   background-size: cover;
-  height: 600px;
+  height: 650px;
   width: 100%;
   /*margin-top: -20%;  this was causing the nav bar to not appear*/
 }
+.follow {
+
+}
 .follow-text {
   line-height: 1.4;
+
 }
 .pageTwo{
   background:url("https://farm6.staticflickr.com/5062/5647855669_3f144666c0_b.jpg");
